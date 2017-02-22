@@ -1,0 +1,19 @@
+body{
+  background-image: url("../images/main.jpg");
+  background-size: cover;
+  font-family: 'Pangolin', cursive;
+}
+.header-intro{
+  font-size: 50px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.intro{
+  font-size: 40px;
+}
+.Creators{
+  color: white;
+  font-family: 'Barrio', cursive;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100%;
+}
