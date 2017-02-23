@@ -1,0 +1,63 @@
+@media  {
+    all();
+}
+
+
+
+h1{
+    font-family: 'Courgette', cursive;
+}
+h2{
+    font-family: 'Old Standard TT', serif;
+}
+
+.btn{
+    color:  white;
+    background-color:  #F15A29;
+
+}
+
+#oldenough{
+    display: none;
+}
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-image: url("../background/download.jpg");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+}
+
+.thumbnail {
+    text-align: center;
+    background-color: #c0c0c0;
+    background: none;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    color: black;
+    opacity: 1;
+}
+
+.overage {
+    color: black;
+
+}
+
+.underage {
+    color: black;
+    float: right;
+}
+
+h2 {
+    font-family: cursive;
+    /*text-decoration: underline;*/
+}
+#start {
+    padding-right: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top : 7px;
+    margin-left: 50%;
+    display: none;
+}
