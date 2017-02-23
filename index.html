@@ -1,23 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Barrio|Pangolin|Shadows+Into+Light" rel="stylesheet">
-  <title>Tales of Jomcsid</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Pangolin|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <title>Tales of Jomcsid</title>
 </head>
-<body>
-  <div class="container">
-    <h1 class="header-intro">The Tales of Jomcsid from Fsjorm</h1>
-    <p id="intro">This story is based on Jomcsid and all the decisions he takes to stay alive. Do come with an open mind as the misadventures and turmoil begin to unveil themselves.</p>
-    <p>WARNING: THIS GAME IS NOT TIME-BOUND!</p>
-  </div>
-  <footer class="Creators">Created by Al Aganya, Kenneth Gitere and "Bad Guy" Yonko Kilasi</footer>
-  <script src="assets/scripts.js"></script>
+
+<body class="body backdrop">
+    <div class="container">
+        <div class="container">
+            <h1 class="header-intro">The Tales of Jomcsid from Fsjorm</h1>
+            <p id="intro">This story is based on Jomcsid and all the decisions he takes to stay alive. Do come with an open mind as the misadventures and turmoil begin to unveil themselves.</p>
+            <p>WARNING: THIS GAME IS NOT TIME-BOUND!</p>
+        </div>
+        <div class="part1">
+            <div class="container">
+                <p>
+                    The story opens in the village of Fsjorm with you as Jomcsid who is visited by the magician (with no name) who hands you a magical card to go and cash in for wealth beyond your wildest dreams. So you sell your all your worldly possesions and it amounts
+                    to <em>1000</em> silver coins. Which is much but also not so much bro(or female "bro". We're all about equality!). Sorry! But now you are faced with two decisions:
+                </p>
+                <button id="walk">Walk the way there <i class="em em-walking"></i></button>
+                <button id="carriage">Take an express carriage (You'll get there quicker!) <i class="em em-railway_car"></i></button>
+            </div>
+        </div>
+        <div id="part2-carriage">
+            <p>Lazy as you are, you decided to take an express carriage to Hellbig and miss all the adventure of walking. Well the jokes on you <i class="em em-japanese_ogre"></i> .The journey starts fairly well and you already visualise all the money you
+                are going to get in Hellbig after selling your card. That is until <em>THE TRANSPORTER</em> decided that he did not need his passengers anymore. You are bundled out of the carriage with no money<i class="em em-money_with_wings"></i>, weapons
+                or food.Seeing as you are a useless person..............<strong>YOU DIE<i class="em em-astonished"></i></strong>
+                <br>
+                <br>
+                <br><button type="button" name="button" class="restart">Restart <i class="em em-repeat"></i></button></p>
+        </div>
+        <div id="part2-walk">
+            <p>The white box on your right part <i class="em em-arrow_right"></i> of the screen is showing you how much you have left.</p>
+            <h1 class="cash thumbnail"></h1>
+            <p>So you decide to walk.....hmmmm, good choice.
+                <br>As you are walking along the pathway, you meet an injured man.His name is Lucy(apparently his elder brother was called Luke and his mother was not of the creative kind, so he got the name Lucy <strong><i class="em em-stuck_out_tongue_winking_eye"></i></strong>                )
+                <br><img src="images/lucy.jpg" alt="Lucy">
+                <br>Anyway, Lucy needs you to part with 150 silver coins out of your own goodness for his healing potion. Will you:
+            </p>
+            <button id="help">
+          Help him. (This will cost you 150 Silver coins <i class="em em-moneybag"></i>.)
+        </button>
+            <button id="noHelp">
+          Leave him. (This will cost you nothing in terms of cash.)
+        </button>
+        </div>
+        <div id="part3-help">
+            <h1 class="cash thumbnail"></h1>
+            <p>
+                Lucy: Cool story bro!<i class="em em-joy"></i>.I'm out!<i class="em em-airplane"></i>
+            </p>
+            <p>
+                Lucy leaves without a trace and you are now less rich and faced by two situations. Hunger<i class="em em-hamburger"></i> or Thirst <i class="em em-droplet"></i>
+            </p>
+            <h1>YOU DECIDE!</h1>
+            <button class="hunger-help">Eat some ***** like groceries bro!<i class="em em-stuck_out_tongue_closed_eyes"></i>Buy some food (cost is 200 <i class="em em-moneybag"></i>)<i class="em em-meat_on_bone"></i>
+      </button>
+            <button class="thirst-help">Buy a drink <i class="em em-tropical_drink"></i>(cost is 200 <i class="em em-moneybag"></i>)</i>
+      </button>
+        </div>
+        <div id="part3-noHelp">
+            <h1 class="cash thumbnail"></h1>
+            <p>As the selfish bastard that you are...<i class="em em-no_good"></i> he left disappointed.
+            </p>
+            <p>
+                But now... you are faced by two extremes and can only satisfy one...Hunger<i class="em em-hamburger"></i> or Thirst<i class="em em-droplet"></i>
+            </p>
+            <h1>YOU DECIDE!</h1>
+            <button class="hunger-noHelp">
+          Eat some ***** like groceries bro!<i class="em em-stuck_out_tongue_closed_eyes"></i>Buy some food (cost is 200 <i class="em em-moneybag"></i>)<i class="em em-meat_on_bone"></i>
+        </button>
+            <button class="thirst-noHelp">
+            Buy a drink <i class="em em-tropical_drink"></i>(cost is 200 <i class="em em-moneybag"></i>)
+          </button>
+        </div>
+        <div id="takeFood">
+          <h1 class="cash thumbnail"></h1>
+            <h1>FUN FACT:</h1>
+            <p>People can survive at least 40 days without food but only go less than 1 <strong>WEEK!</strong> without water. So.... Get your priorities right my friend!<i class="em em-grimacing"></i> and start again.</p>
+            <button type="button" name="button" class="restart">Restart <i class="em em-repeat"></i></button>
+        </div>
+        <div id="takeDrink">
+          <h1 class="cash thumbnail"></h1>
+            <p><strong>Ahaa! Water it is!</strong> So you know your priorities.
+            </p>
+            
+        </div>
+    </div>
+    <footer class="Creators">Created by Al Aganya, Kenneth Gitere, "Bad Guy" Yonko Kilasi And <strong>Bry</strong>.</footer>
+    <script src="assets/scripts.js"></script>
 </body>
+
 </html>

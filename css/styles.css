@@ -1,19 +1,164 @@
-body{
-  background-image: url("../images/main.jpg");
-  background-size: cover;
-  font-family: 'Pangolin', cursive;
+.cash {
+    float: right;
+    color: black;
 }
-.header-intro{
-  font-size: 50px;
-  font-family: 'Shadows Into Light', cursive;
+
+.backdrop {
+    background-image: url("../images/main.jpg");
+    background-size: cover;
 }
-.intro{
-  font-size: 40px;
+
+body {
+    font-family: 'Pangolin', cursive;
+    color: white;
 }
-.Creators{
-  color: white;
-  font-family: 'Barrio', cursive;
-  text-align: center;
-  font-size: 40px;
-  margin-top: 100%;
+
+.body {
+    ba
+}
+
+.header-intro {
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
+
+.intro {
+    font-size: 40px;
+}
+
+.Creators {
+    color: white;
+    font-family: 'Barrio', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 300px;
+}
+
+#walk {
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+}
+
+#carriage {
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+    float: right;
+}
+
+#part2-carriage {
+    display: none;
+    font-size: 40px;
+}
+
+#part2-walk {
+    display: none;
+    font-size: 40px;
+}
+
+.walk-backdrop {
+    background-image: url("../images/walk.jpg");
+    background-size: cover;
+}
+
+.carriage-backdrop {
+    background-image: url("../images/carriage.jpg");
+    background-size: cover;
+}
+
+.restart {
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    color: #c0c0c0;
+}
+
+.part3-backdrop {
+    background-image: url("../images/part3.jpg");
+    background-size: cover;
+}
+
+#noHelp {
+    color: black;
+    float: right;
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+}
+
+#help {
+    color: black;
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+}
+
+#part3-help {
+    display: none;
+    color: black;
+    background-color: #c0c0c0;
+    font-size: 40px;
+}
+
+#part3-noHelp {
+    display: none;
+    color: red;
+    background-color: #c0c0c0;
+    font-size: 40px;
+}
+
+.hunger-help {
+    color: black;
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+}
+
+.thirst-help {
+    color: black;
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+    float: right;
+}
+.hunger-noHelp {
+    color: black;
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+}
+
+.thirst-noHelp {
+    color: black;
+    padding: 10px 30px 10px 30px;
+    border-style: none;
+    background-color: #add8e6;
+    float: right;
+}
+
+#takeFood {
+    display: none;
+    color: white;
+    font-size: 40px;
+}
+
+#takeFood h1 {
+    font-size: 40px;
+}
+
+.takeFood-backdrop {
+    background-image: url("../images/hunger.jpg");
+    background-size: cover;
+}
+
+#takeDrink {
+    display: none;
+    color: white;
+    font-size: 40px;
+}
+
+.takeDrink-backdrop {
+    background-image: url("../images/thirst.jpg");
+    background-size: cover;
 }
